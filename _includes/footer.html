@@ -34,7 +34,7 @@
             </a>
           {% endif %}
 
-          {% if site.facebook_link %}
+          {% if site.twitter_link %}
             <a href="{{ site.twitter_link }}" class="btn-group twitter">
               <i class="fa fa-twitter"></i>
             </a>
@@ -45,12 +45,18 @@
               <i class="fa fa-facebook"></i>
             </a>
           {% endif %}
+          
+                    {% if site.github_link %}
+            <a href="{{ site.github_link }}" class="btn-group github">
+              <i class="fa fa-github"></i>
+            </a>
+          {% endif %}
         </div>
       </div>    
     </div>
   </div>
 
   <div class="copyright text center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="https://p-oszkar.github.io">P. - Oszkar</a>. <br>Theme ported by <a href="https://melvinchng.github.io/" target="_blank">Melvin Ch'ng</a></p>
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="https://show-chat.github.io">ShowChat</a>. <br>Theme ported by <a href="https://melvinchng.github.io/" target="_blank">Melvin Ch'ng</a></p>
   </div>
 </footer>
